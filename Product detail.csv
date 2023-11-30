@@ -1,0 +1,90 @@
+Product_id,Product_name,Product_type,Price,Brand
+926757,· Asparagus,vegetable,160,veondor
+996165,· Broccoli,vegetable,200,veondor
+616814,· Carrots,vegetable,50,veondor
+318183,· Cauliflower,vegetable,80,veondor
+421057,· Celery,vegetable,100,veondor
+439765,· Corn,vegetable,50,veondor
+728956,· Cucumbers,vegetable,50,veondor
+507574,· BBQ sauce,sauce,414,veeba
+220434,· Gravy,sauce,148,veeba
+125093,· Honey,sauce,184,veeba
+141830,· Hot sauce,sauce,557,veeba
+52562,· Jam / Jelly / Preserves,sauce,962,veeba
+445354,· Ketchup / Mustard,sauce,889,veeba
+724965,· Mayonnaise,sauce,177,veeba
+780588,· Pasta sauce,sauce,239,veeba
+790767,· Relish,sauce,417,veeba
+764079,· Salad dressing,sauce,783,veeba
+584081,· Salsa,sauce,507,veeba
+478721,· Soy sauce,sauce,816,veeba
+478828,· Steak sauce,sauce,868,veeba
+860416,· Syrup,sauce,329,veeba
+438592,· Worcestershire sauce,sauce,830,veeba
+539963,· Butter / Margarine,dairy,275,amul
+53969,· Cottage cheese,dairy,261,amul
+75110,· Half & half,dairy,904,amul
+866526,· Milk,dairy,952,amul
+220787,· Sour cream,dairy,462,amul
+296961,· Whipped cream,dairy,582,amul
+266600,· Yogurt,dairy,563,amul
+978988,· Bleu cheese,cheese,200,amul
+363084,· Cheddar,cheese,670,amul
+598631,· Cottage cheese,cheese,622,amul
+519345,· Cream cheese,cheese,357,amul
+62343,· Feta,cheese,727,amul
+825627,· Goat cheese,cheese,500,amul
+437508,· Mozzarella,cheese,470,amul
+169799,· Parmesan,cheese,173,amul
+606291,· Provolone,cheese,656,amul
+355621,· Ricotta,cheese,130,amul
+596394,· Sandwich slices,cheese,675,amul
+672381,· Swiss,cheese,900,amul
+24312,· Apples,fruits,700,wholeseller
+634056,· Avocados,fruits,748,wholeseller
+763499,· Bananas,fruits,989,wholeseller
+823478,· Berries,fruits,558,wholeseller
+267232,· Cherries,fruits,599,wholeseller
+744490,· Grapefruit,fruits,603,wholeseller
+623177,· Grapes,fruits,132,wholeseller
+833396,· Kiwis,fruits,981,wholeseller
+802417,· Lemons / Limes,fruits,845,wholeseller
+805,· Melon,fruits,790,wholeseller
+336397,· Nectarines,fruits,906,wholeseller
+314653,· Oranges,fruits,601,wholeseller
+480188,· Peaches,fruits,843,wholeseller
+345530,· Pears,fruits,592,wholeseller
+561548,· Plums,fruits,890,wholeseller
+111357,· Candy / Gum,snacks,844,nestle
+381179,· Cookies,snacks,349,nestle
+741899,· Crackers,snacks,254,nestle
+518267,· Dried fruit,snacks,351,nestle
+575194,· Granola bars / Mix,snacks,898,nestle
+530307,· Nuts / Seeds,snacks,522,nestle
+363529,· Oatmeal,snacks,125,nestle
+581287,· Popcorn,snacks,319,nestle
+798216,· Potato / Corn chips,snacks,55,nestle
+815674,· Pretzels,snacks,990,nestle
+599294,· Applesauce,canned foods,84,del monte
+865673,· Baked beans,canned foods,634,del monte
+267705,· Broth,canned foods,232,del monte
+651813,· Fruit,canned foods,100,del monte
+455042,· Olives,canned foods,577,del monte
+820852,· Tinned meats,canned foods,138,del monte
+3658,· Tuna / Chicken,canned foods,367,del monte
+583820,· Soup / Chili,canned foods,453,del monte
+618745,· Tomatoes,canned foods,45,del monte
+414298,· Veggies,canned foods,442,del monte
+953447,· Basil,herbs and spices,480,veeba
+693402,· Black pepper,herbs and spices,142,veeba
+548238,· Cilantro,herbs and spices,747,veeba
+42680,· Cinnamon,herbs and spices,779,veeba
+746273,· Garlic,herbs and spices,725,veeba
+624236,· Ginger,herbs and spices,441,veeba
+850941,· Mint,herbs and spices,555,veeba
+454526,· Oregano,herbs and spices,838,veeba
+859805,· Paprika,herbs and spices,734,veeba
+599982,· Parsley,herbs and spices,116,veeba
+26577,· Red pepper,herbs and spices,50,veeba
+917140,· Salt,herbs and spices,633,veeba
+115234,· Vanilla extract,herbs and spices,201,veeba
