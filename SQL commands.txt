@@ -1,0 +1,132 @@
+CREATE TABLE `customer` (
+  `Customer_id` int(11) NOT NULL,
+  `Customer_name` text NOT NULL,
+  `Customer_phn` bigint(20) NOT NULL,
+  `Customer_Add` text NOT NULL,
+  PRIMARY KEY (`Customer_id`)
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_general_ci;
+
+
+
+CREATE TABLE `employee` (
+  `Employee_ID` int(11) NOT NULL,
+  `Employee name` text NOT NULL,
+  `Employee Number` int(11) NOT NULL,
+  `Employee_address` text NOT NULL,
+  `salary` int(11) NOT NULL,
+  PRIMARY KEY (`Employee_ID`)
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_general_ci;
+
+
+CREATE TABLE `orders` (
+  `Oder_id` int(11) NOT NULL,
+  `Quantity` int(11) NOT NULL,
+  `Payment type` text NOT NULL,
+  `Price` double NOT NULL,
+  `stock(-)` int(11) NOT NULL,
+  `Net expense+ 5% Tax` double NOT NULL,
+  `date` text NOT NULL,
+  `Products` text NOT NULL,
+  `gross margin percentage` double NOT NULL,
+  `gross income` double NOT NULL,
+  PRIMARY KEY (`Oder_id`)
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_general_ci;
+
+CREATE TABLE `product detail` (
+  `Product_id` int(11) NOT NULL,
+  `Product_name` text NOT NULL,
+  `Product_type` text NOT NULL,
+  `Price` int(11) NOT NULL,
+  `Brand` text NOT NULL,
+  PRIMARY KEY (`Product_id`)
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_general_ci;
+
+CREATE TABLE `supplier` (
+  `supplier id` int(11) NOT NULL,
+  `supplier name` text NOT NULL,
+  `quantity` int(11) NOT NULL,
+  `zipcode` int(11) NOT NULL,
+  `location` text NOT NULL,
+  `phn` bigint(20) NOT NULL,
+  PRIMARY KEY (`supplier id`)
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_general_ci;
+
+INSERT INTO `supermarket`.`product detail`
+(`Product_id`,
+`Product_name`,
+`Product_type`,
+`Price`,
+`Brand`)
+VALUES
+(<{Product_id: }>,
+<{Product_name: }>,
+<{Product_type: }>,
+<{Price: }>,
+<{Brand: }>);
+
+INSERT INTO `supermarket`.`supplier`
+(`supplier id`,
+`supplier name`,
+`quantity`,
+`zipcode`,
+`location`,
+`phn`)
+VALUES
+(<{supplier id: }>,
+<{supplier name: }>,
+<{quantity: }>,
+<{zipcode: }>,
+<{location: }>,
+<{phn: }>);
+INSERT INTO `supermarket`.`order`
+(`Oder_id`,
+`Quantity`,
+`Payment type`,
+`Price`,	
+`stock(-)`,
+`Net expense+ 5% Tax`,
+`date`,
+`Products`,
+`gross margin percentage`,
+`gross income`)
+VALUES
+(<{Oder_id: }>,
+<{Quantity: }>,
+<{Payment type: }>,
+<{Price: }>,
+<{stock(-): }>,
+<{Net expense+ 5% Tax: }>,
+<{date: }>,
+<{Products: }>,
+<{gross margin percentage: }>,
+<{gross income: }>);
+
+INSERT INTO `supermarket`.`employee`
+(`Employee_ID`,
+`Employee name`,
+`Employee Number`,
+`Employee_adress`,
+`salary`)
+VALUES
+(<{Employee_ID: }>,
+<{Employee name: }>,
+<{Employee Number: }>,
+<{Employee_adress: }>,
+<{salary: }>);
+
+INSERT INTO `supermarket`.`customer`
+(`Customer_id`,
+`Customer_name`,
+`Customer_phn`,
+`Customer_Add`)
+VALUES
+(<{Customer_id: }>,
+<{Customer_name: }>,
+<{Customer_phn: }>,
+<{Customer_Add: }>);
+
+
+
+
+
+
